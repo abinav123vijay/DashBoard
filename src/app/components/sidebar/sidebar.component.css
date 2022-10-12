@@ -1,0 +1,44 @@
+.Frame-1758 {
+    width: 280px;
+    height: 680px;
+    flex-grow: 0;
+    padding: 20px 20px 304px 12px;
+    background-color: var(--bw-white);
+  }
+
+  .AccountSettings-interactive {
+    width: 1416px;
+    height: 680px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 0;
+  }
+
+  .sideNavItem {
+    width: 240px;
+    height: 44px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 9px 0;
+    border: solid 1px var(--bw-grey-01);
+    background-color: var(--bw-white);
+  }
+
+  .Frame-1768 {
+    height: 26px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 4px 0;
+  }
+
+  

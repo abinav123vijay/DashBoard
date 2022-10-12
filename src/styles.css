@@ -1,0 +1,98 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+:root {
+    --bw-grey-01: #eceff3;
+    --bw-grey-02: #d9dbde;
+    --bw-grey-03: #969da5;
+    --bw-grey-04: #5c5e60;
+    --bw-white:#fff;
+    --bw-black:#000;
+    --brand-alpha-blue:#375dd7;
+    --brand-sm:#ff9315;
+    --brand-tm:#d62884;
+    --chart-blue-01:#41b6ff;
+    --chart-green:#54cba2;
+    --direction-neg:#f45050;
+    --direction-pos:#3fc96a;
+    --chart-grey:#8393c7;
+
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Inter, "Helvetica Neue", sans-serif; }
+
+.header-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar{
+      background-color:#fff ;
+      border-bottom:1px solid #ddd;
+  }
+
+  .logo-style{ font-weight: bolder; padding-right: 30px;}
+
+  .mat-button{border-radius: 0px !important; line-height: 64px !important;}
+
+  .button-selected{color:blue; border-bottom:2px solid blue !important}
+
+  .blue{ color: blue;}
+  .bold {font-weight: bold;}
+
+
+  .search-button {
+    width: 102px;
+    height: 18px;
+   
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0px !important;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: var(--brand-alpha-blue);
+  }
+
+  .in-line{display: inline;}
+
+  .dark-grey-text{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: var(--bw-grey-04);
+  }
+
+  .inline{
+    display: inline-block;
+    
+  }
+
+  .search-match{
+    width: 149px;
+    height: 18px;
+    margin: 0 244px 16px 0;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.26px;
+    text-align: left;
+    color: var(--bw-grey-03);
+  }
+
+  .search-figure{
+
+    background-color: var(--bw-white);
+}
